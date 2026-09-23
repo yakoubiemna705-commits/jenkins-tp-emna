@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout GIT') {
             steps {
-                echo 'Code déjà récupéré automatiquement par Jenkins (Pipeline script from SCM)'
+                  echo 'Code déjà récupéré automatiquement par Jenkins - test poll SCM'
             }
         }
 
